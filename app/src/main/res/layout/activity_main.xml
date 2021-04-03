@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TAP"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Login Page"
+            android:textColor="#1133EC"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/intSno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="S No"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/intSName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="S Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/intSage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="S Age"
+            android:inputType="number" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="Login"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btnClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="Clear"
+                    android:textColor="#FFFFFF"
+                    android:visibility="gone" />
+
+
+                <Button
+                    android:id="@+id/btnInsert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="Register"
+                    android:textColor="#FFFFFF"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnRF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="Register"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="Delete"
+                    android:textColor="#FFFFFF"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnLgOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="Logout"
+                    android:textColor="#FFFFFF"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="View"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btnMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#B60D0D"
+                    android:onClick="TAP"
+                    android:text="MainActivity"
+                    android:textColor="#FFFFFF"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtShow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
